@@ -1,56 +1,46 @@
-export const SITE_NAME = 'Apideck Blog'
-export const COPYRIGHT_NAME = 'Apideck'
-export const BASE_URL = 'https://blog.apideck.com/'
-export const FAVICON = 'https://res.cloudinary.com/apideck/image/upload/v1588464645/blog/favicon.png'
-export const LOGO = 'https://res.cloudinary.com/apideck/image/upload/v1588464645/blog/logo.svg'
-export const OG_IMAGE = 'https://res.cloudinary.com/apideck/image/upload/v1588464645/blog/social.jpg'
-export const OG_DESCRIPTION = 'Stay up to date with the latest Apideck news. Get the latest industry insights and trends about building successful SaaS ecosystems, platforms, partnerships, integrations & APIs.'
-export const TWITTER_HANDLE = 'apideck'
+export const SITE_NAME = 'Banq Blog'
+export const COPYRIGHT_NAME = 'Banq'
+export const BASE_URL = 'https://blog.banq.ai/'
+export const FAVICON = 'https://www.banq.ai/static/favicon.png'
+export const LOGO = 'https://www.banq.ai/static/images/banq.svg'
+export const OG_IMAGE = 'https://www.banq.ai/preview.png'
+export const OG_DESCRIPTION = 'Stay up to date with the latest Banq news. Get the latest industry insights and trends about banking, Fintech & APIs.'
+export const TWITTER_HANDLE = 'banq_ai'
 export const TWITTER_URL = 'https://www.twitter.com/' + TWITTER_HANDLE
-export const MASTHEAD_BG_COLOR = '#080b4b'
-export const FOOTER_BG_COLOR = '#080A2D'
-export const PRIMARY_COLOR = ''
+export const MASTHEAD_BG_COLOR = '#000'
+export const FOOTER_BG_COLOR = '#000'
+export const DARK_LINK_COLOR = ''
+export const PRIMARY_COLOR = '#0056FC'
 export const METOMIC_PROJECT_ID = '97d085e6-af9d-4990-8fa2-6fbd04940e49'
-export const SEGMENT_API_KEY = ''
-export const CTA_TITLE = 'Ready to get started?'
-export const CTA_DESCRIPTION = 'Start building your ecosystem in less than 5 minutes'
-export const CTA_BUTTON_LABEL = 'Sign up'
-export const CTA_BUTTON_LINK = 'https://app.apideck.com/signup'
+export const SEGMENT_API_KEY = 'Q6o2CMKqWaIoU6lJV9rgvbjsEsMQkMQI'
+export const CTA_TITLE = 'Interested in more insights?'
+export const CTA_DESCRIPTION = 'Banq builds data products and ecosystem solutions for bank and fintech providers.'
+export const CTA_BUTTON_LABEL = 'Join our private beta'
+export const CTA_BUTTON_LINK = 'https://banq.us19.list-manage.com/subscribe?u=608147ae4e2d6b1fd96bd961b&id=ca3cf23691'
 
 export const NAV_LINKS = [
   {
-    'id': 'unify',
-    'href': 'https://www.apideck.com/products/unify',
-    'label': 'Unify'
-  },
-  {
-    'id': 'ecosystem',
-    'href': 'https://www.apideck.com/products/ecosystem',
-    'label': 'Ecosystem',
+    'id': 'banq',
+    'href': 'https://www.banq.ai/',
+    'label': 'Home',
     'className': 'ml-4'
   },
   {
-    'id': 'pricing',
-    'href': 'https://www.apideck.com/pricing',
-    'label': 'Pricing',
+    'id': 'obt',
+    'href': 'https://www.openbankingtracker.com/',
+    'label': 'Open Banking Tracker',
     'className': 'ml-4'
   },
   {
-    'id': 'integrations',
-    'href': 'https://integrations.apideck.com',
-    'label': 'Integrations',
+    'id': 'challenger-banks',
+    'href': 'https://www.challengerbanks.co/',
+    'label': 'Challenger Banks',
     'className': 'ml-4'
   },
   {
-    'id': 'login',
-    'href': 'https://app.apideck.com/login',
-    'label': 'Login',
-    'className': 'ml-4'
-  },
-  {
-    'id': 'sign-up',
-    'href': 'https://app.apideck.com/signup',
-    'label': 'Sign up',
+    'id': 'beta-access',
+    'href': 'https://banq.us19.list-manage.com/subscribe?u=608147ae4e2d6b1fd96bd961b&id=ca3cf23691',
+    'label': 'Request beta access',
     'type': 'button',
     'className': 'ml-4'
   }

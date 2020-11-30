@@ -230,11 +230,6 @@ article .markdown {
   color: white;
 }
 
-.markdown > p:first-child a {
-  color: #A127DF;
-
-}
-
 .markdown p,
 .markdown ul,
 .markdown ol {
@@ -296,8 +291,8 @@ ol {
 
   article img {
     margin: 0 auto;
-    max-width: 80%;
-    width: 80%;
+    max-width: 100%;
+    width: 100%;
   }
 }
 
